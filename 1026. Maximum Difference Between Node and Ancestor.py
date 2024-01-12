@@ -4,7 +4,7 @@ class Solution(object):
             return 0
         self.diff = 0
         self.helper(root, root.val, root.val)
-        return self.diff
+        return self.diff 
     
     def helper(self, root, min_val, max_val):
         if not root:
